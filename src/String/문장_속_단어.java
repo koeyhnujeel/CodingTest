@@ -16,7 +16,7 @@ public class 문장_속_단어 {
 		String str = sc.nextLine();
 
 		String[] arr = str.split(" ");
-		String answer = solution(arr);
-		System.out.println(answer);
+		String result = solution(arr);
+		System.out.println(result);
 	}
 }
