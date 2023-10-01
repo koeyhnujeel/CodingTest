@@ -18,7 +18,7 @@ public class 대소문자_변환 {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.next();
 
-		String result = solution(str);
-		System.out.println(result);
+		String answer = solution(str);
+		System.out.println(answer);
 	}
 }
