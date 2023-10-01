@@ -1,16 +1,14 @@
+package String;
+
 import java.util.Scanner;
 
 public class 대소문자_변환 {
 	static String solution(String s) {
 		String result = "";
-		char limit = 'Z';
 
 		for (char c : s.toCharArray()) {
-			if ((int)c <= (int)limit) {
-				result += Character.toLowerCase(c);
-			} else {
-				result += Character.toUpperCase(c);
-			}
+			if(Character.isLowerCase(c)) result += Character.toUpperCase(c);
+			else result += Character.toLowerCase(c);
 		}
 
 		return result;
