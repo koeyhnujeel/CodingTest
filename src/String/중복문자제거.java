@@ -15,6 +15,7 @@ public class 중복문자제거 {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.nextLine();
 
-		System.out.println(solution(str));
+		String result = solution(str);
+		System.out.println(result);
 	}
 }
