@@ -32,9 +32,9 @@ public class 가장_짧은_문자거리 {
 		String[] tmp = sc.nextLine().split(" ");
 		String str = tmp[0];
 		char t = tmp[1].charAt(0);
-		int[] result = solution(str, t);
+		int[] answer = solution(str, t);
 
-		for (int i : result) {
+		for (int i : answer) {
 			System.out.print(i + " ");
 		}
 	}
